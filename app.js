@@ -19,5 +19,6 @@ list.push(user1, user2, user3, user4, user5, user6, user7, user8, user9, user10,
 function filterByAge(minAge) {
     return list.filter(user => user.age >= minAge);
 }
+
 console.table(filterByAge(20)); // [{ name: "Alice", age: 30 }, { name: "Charlie", age: 35 }]
 console.table(list); // [{ name: "Alice", age: 30 }, { name: "Charlie", age: 35 }]
