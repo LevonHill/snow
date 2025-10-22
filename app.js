@@ -20,5 +20,5 @@ function filterByAge(minAge) {
     return list.filter(user => user.age >= minAge);
 }
 
-console.table(filterByAge(20)); // [{ name: "Alice", age: 30 }, { name: "Charlie", age: 35 }]
+console.table(filterByAge(30)); // [{ name: "Alice", age: 30 }, { name: "Charlie", age: 35 }]
 console.table(list); // [{ name: "Alice", age: 30 }, { name: "Charlie", age: 35 }]
