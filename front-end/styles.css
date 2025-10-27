@@ -1,0 +1,14 @@
+:root{
+--primary-color: #3498db;
+--secondary-color: #2ecc71;
+--font-family: 'Arial, sans-serif';
+}
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span{
+    color: red;
+}
