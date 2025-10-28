@@ -1,3 +1,5 @@
+<!-- @format -->
+
 Themes apply style settings to a portal to give your site a consistent look and feel across all pages, desktop or mobile. This course will explore the different methods that you can utilize to create and apply Themes to your Service Portal.
 
 This a course in the ServiceNow Theming Essentials learning path. For this lesson, the following topics are included:
@@ -10,8 +12,6 @@ At the end of this course, you will be able to:
 Update the Service Portal theme.
 Update the headers and footers
 
-
-
 // Service portal Themes Introduction
 Service Portal allows you to build a mobile-friendly self-service experience for your users. It interacts with parts of the Now Platform, so users can access specific platform features using Service Portal. It is an alternative to the Content Management System (CMS) based on more modern technologies.
 
@@ -20,7 +20,7 @@ Service Portal allows you to build a mobile-friendly self-service experience for
 The Service Portal that you are currently using is highlighted with a small dot next to the portal name. You can modify other Service Portals, but you won't see those changes unless you switch to the other Service Portal. This requires logging out and logging back into the correct Service Portal.
 ![alt text](image.png)
 
-LAB1 
+LAB1
 
 Apply Service Portal Themes
 Before you start
@@ -74,12 +74,11 @@ While themes are typically used to modify the color scheme of a Service Portal, 
 To create or modify either a header or a footer, navigate to Service Portal > Headers & Footers.
 ![alt text](image-1.png)
 
-To modify an existing header or footer, select the name of the item that you want to modify. The resulting dialog box will look like the following. Select the plus (+) icons to see additional information. 
+To modify an existing header or footer, select the name of the item that you want to modify. The resulting dialog box will look like the following. Select the plus (+) icons to see additional information.
 ![alt text](image-4.png)
 
-
 1st -Name
-The name you provide for the header or footer.  It is best to be descriptive by including the purpose of the header or footer and indicating if this is designed to be a header or footer.
+The name you provide for the header or footer. It is best to be descriptive by including the purpose of the header or footer and indicating if this is designed to be a header or footer.
 Example: Legal Disclaimer Footer
 
 2nd- HTML
@@ -119,10 +118,7 @@ Additional advanced options (Server Script, Client Controller, etc.) are also av
 
 Instead of modifying a header or footer, consider using the "Clone Widget" option (located on the title bar and at the bottom of the screen). This feature allows you to make changes to a header or footer without risking losing existing formatted data.
 
-
 Activity 2: Applying Service Portal Headers and Footers
-
-
 
 Section 1: Your goal for this practice lab
 
@@ -175,13 +171,12 @@ Select Copyright.
 6
 Select the Additional Actions (three horizontal lines) icon or right-click the header and select Save.
 
-
 Service Portal Branding Editor
 This section will focus on many different ways you can modify the theming experience in ServiceNow. The following will be covered:
 
 . Using the Branding Editor to modify the theme of the Service Portal.
 
-Using the Branding Editor- 
+Using the Branding Editor-
 
 The Branding Editor allows anyone to simply and efficiently customize the Service Portal theme.
 
@@ -200,3 +195,41 @@ Select Branding Editor.
 4
 To change the colors for the Service Portal, select the Theme Colors tab. Take note of changes to the colors displayed in the Theme Preview window.
 ![alt text](image-8.png)
+
+5. Changes made in the Branding Editor are immediate. There is no "save" process. You can see the changes by returning to your ServiceNow instance and navigating to Service Portal > Service Portal Home.
+
+![alt text](image-9.png)
+
+Service Portal CSS
+
+Modifying existing themes using CSS
+
+One way that themes are defined is with CSS files. A good understanding of CSS is required and the names given to the different elements of the ServiceNow display (a.k.a., the HTML classes). This section will provide you with the steps to make changes, but it will be up to you to explore and learn more about how these changes will affect the theme of your ServiceNow instance.
+
+1
+To customize existing themes, navigate to Service Portal > Themes and select the theme that you want to modify.
+![alt text](image-10.png)
+
+2.This level of customization is where your knowledge of CSS will be exercised. Enter CSS directly into the following entry box.
+
+![alt text](image-11.png)
+
+3.You might find it more beneficial to store the CSS in an external file and upload them. Multiple CSS files can be uploaded. To use this method, scroll down and select the New button on the CSS Includes related list.
+![alt text](image-12.png)
+
+4.  Enter a name and then select the Lookup using list (magnifying glass) button next to the Style sheet dialog box.
+    ![alt text](image-13.png)
+
+Lazy Load
+Option to load the CSS Include asynchronously to improve page load time. This option should be set to the same value for all CSS Includes of a theme. Enabling asynchronous loading for only some CSS Includes associated with a theme isn’t recommended.
+
+Note: Enabling Lazy Load isn’t recommended for portals with flashing of unstyled content.
+
+5
+Either choose an existing CSS file or select the New button to create a new CSS file.
+
+![alt text](image-14.png)
+
+6. Once you have made all changes to the CSS Include, select the Submit button.
+
+7.After finishing all changes for the theme, select the Additional actions (three horizontal lines) icon or right-click the form header and choose Save.
