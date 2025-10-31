@@ -71,3 +71,32 @@ default pages
 ![alt text](image-26.png)
 
 ![alt text](image-27.png)
+
+Module 3
+Widgets and widget instances
+
+![alt text](image-28.png)
+What is a widget
+
+![alt text](image-29.png)
+
+![alt text](image-30.png)
+![alt text](image-31.png)
+![alt text](image-32.png)
+![alt text](image-33.png)
+![alt text](image-34.png)
+
+Developing widgets 
+![alt text](image-35.png)
+
+![alt text](image-36.png)
+
+![alt text](image-37.png)
+
+![alt text](image-38.png)
+MVC ![alt text](image-39.png)
+
+![alt text](image-40.png)
+
+![alt text](image-41.png)
+![alt text](image-42.png)
