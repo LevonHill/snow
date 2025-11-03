@@ -1,5 +1,5 @@
-/** @format */
-
+.sp-login-widget { 
+  /** @format */
 :root {
   --primary-color: #FF6B6B;
   --secondary-color: #0D0D0D;
@@ -38,10 +38,10 @@ h1,h2{
 body {
   margin-top: 30px;
 padding: 10px;
-background-image: url(./zekelman-upscaled.jpg);
+background-image: url(./xl_Zekelman-Industries_1500x1000.jpg);
 background-size: cover;
 background-position: center;
-background-repeat: no-repeat ;
+background-repeat: no-repeat;
 height: 100vh;
 }
 
@@ -70,7 +70,7 @@ button {
   padding: 10px;
   width: 100px;
   background-color: var(--primary-button-bg);
-  color: white;
+  color: white !important;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -103,4 +103,5 @@ a {
 }
 .secondary {
   color: var(--anchor-primary);
+}
 }
