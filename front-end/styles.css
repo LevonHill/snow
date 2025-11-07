@@ -104,3 +104,13 @@ a {
 .secondary {
   color: var(--anchor-primary);
 }
+
+.foot-container {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

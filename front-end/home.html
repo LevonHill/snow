@@ -20,9 +20,9 @@
       <form class="container">
         <img src="/front-end/user.png" alt="Login Logo">
         <label for="username">Username:</label>
-        <input type="text" id="username" placeholder="Username" />
+        <input type="text" id="username" placeholder="Username" minlength="10" maxlength="15" required />
         <label for="password">Password:</label>
-        <input type="password" id="password" placeholder="Password" />
+        <input type="password" id="password" placeholder="Password" minlength="10" maxlength="15" required />
         <label for="remember-me">
         <input type="checkbox" id="remember-me" />
           Remember Me
@@ -34,5 +34,8 @@
       </form>
       </section>
     </main>
+    <footer class="foot-container">
+      <p>&copy; 2025 Zekelman Industries. All rights reserved.</p>
+    </footer>
   </body>
 </html>
